@@ -1,0 +1,111 @@
+
+
+
+
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 100px;
+}
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 100px;
+  background-color: #f5f5f5;
+}
+
+
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+body > .container {
+  padding: 100px 15px 0;
+}
+.container .text-muted {
+  margin: 20px 0;
+}
+
+#footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+  text-align: center;
+}
+
+code {
+  font-size: 80%;
+}
+
+
+.preview-nav{
+    background-color: rgb(214, 214, 214);
+}
+
+.preview-nav .navbar-brand, .bs-docs-nav .navbar-nav > li > a {
+font-weight: 500;
+color: #000000;
+}
+.preview-footer{
+    background-color: #666;
+	text-align: center;
+	text-shadow: 0 1px 0 rgba(0,0,0,.1);
+
+    height: 300px; /* .push must be the same height as .footer */
+	
+    position: relative;
+    margin-bottom: 100px;
+    /* bottom: 300px; */
+}
+.container-centered{
+    text-align: center;
+    padding: 20px;
+}
+.wrapper{
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	/* margin: 0 auto -300px; */ /* the bottom margin is the negative value of the footer's height */
+	/* padding-top: 20px; */
+}
+
+
+
+.container img{
+	width:100%;
+	margin-top:10px;
+	margin-bottom:10px;
+	border:1px solid #999;
+	box-shadow: 0px 2px 10px #999;
+}
+.launch a{
+	position: relative;
+	left: -50%;
+	top: -50%;
+-webkit-box-shadow: 5px 5px 10px 0 rgba(0,0,0,.6);
+box-shadow: 5px 5px 10px 0 rgba(0,0,0,.6);
+}
+.launch{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+}
+.demo{
+    padding: 10px 40px;
+	
+    background: #F5F5F5;
+    margin: 20px 0px;
+    text-align: center;
+}
+.demo:hover{
+	/* background: #ddd; */
+}

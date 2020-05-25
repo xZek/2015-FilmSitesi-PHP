@@ -1,0 +1,13 @@
+/*!
+ * CSS BY BOOTSTRAP * Copyright 2011-2015 
+ * CREATING DESIGNER AND MAKING BY HYBRID 
+ */	
+
+ body {
+    background-image: url("/img/dark.jpg");
+	margin: 0;
+	padding: 0;
+	background-attachment: fixed;
+	background-position: 50% 50%;
+	background-size: cover;
+}
